@@ -37,7 +37,12 @@
             "installRoot": "${projectDir}\\install\\${name}",
             "cmakeCommandArgs": "",
             "buildCommandArgs": "/v:m",
-            "ctestCommandArgs": ""
+            "ctestCommandArgs": "",
+          "environments": [
+            {
+
+            }
+          ]
         },
         {
             "name": "Win-x64-Release-MSBuild",

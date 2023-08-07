@@ -216,6 +216,7 @@ else()
     message(STATUS "clang-format version: ${CLANG_VERSION_STRING}")
 
     if (${CLANG_VERSION_STRING} MATCHES "^.*${VALID_CLANG_FORMAT_VERSION}.*$")
+		SET(Python3_ROOT_DIR "E://01_Adunas//02_EnglishPath//03_software//07_program//03_python//02_python//02_FilePozition//02_R7000//Python39")
         find_package(Python3 COMPONENTS Interpreter)
         if (NOT ${Python3_FOUND})
             message(FATAL_ERROR "Could not find Python3")
